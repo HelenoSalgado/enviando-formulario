@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviando Formulário</title>
+</head>
+<body>
+    <h1>Enviando Formulário sem configurar o back-end.</h1>
+    <form action="https://formsubmit.co/contato@orarelabutar.com" method="POST">
+        <input type="hidden" name="_next" value="eviando.html">
+        <input type="hidden" name="_cc" value="helenosalgado19@gmail.com"> 
+        <input type="hidden" name="_autoresponse" value="Recebi sua mensagem, logo em breve darei uma resposta. Obrigado!">
+        <input type="text" name="name" placeholder="Nome">
+        <input type="email" name="email" placeholder="E-mail">
+        <input type="text" name="subject" id="" placeholder="Assunto">
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+</body>
+</html>
